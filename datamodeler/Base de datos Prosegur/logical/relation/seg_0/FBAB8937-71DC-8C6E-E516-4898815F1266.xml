@@ -2,9 +2,9 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="FBAB8937-71DC-8C6E-E516-4898815F1266">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 22:33:31 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
-<item key="BCAD6A4D-82B2-BBE3-5ADF-345FF517A882" value="true"/>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
 <sourcePk>55C571B7-D80A-E123-9396-025952CA8602</sourcePk>
 <identifying>false</identifying>

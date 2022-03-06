@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="791F5843-BB05-874B-8877-6CDA665BBB3A" name="Vehículos">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:05:26 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <Attribute name="Matricula" id="57EA3523-1A50-4A0A-8CD4-B48FA4BF0914">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:06:13 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <Attribute name="Tipo" id="4033F4B7-B98E-426E-2FC7-58770EEA1BA1">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:07:00 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <Attribute name="Kilometraje" id="F6861848-ECEB-D796-43A0-E65ACA3A68A4">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:07:26 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -60,7 +60,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 22:31:04 UTC</createdTime>
 <generatorID>7B6000B3-802C-DEB7-56D2-AE2DA02C9622</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -75,7 +75,7 @@
 <identifier id="55C571B7-D80A-E123-9396-025952CA8602" name="Vehículos PK">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:06:55 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>

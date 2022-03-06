@@ -3,7 +3,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <generatorID>74D9385C-D6B1-4CD9-FFBD-EDCF234153E4</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <abbreviation>Servizos</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -13,7 +13,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <generatorID>B2C1A3BF-43B3-5A36-B0A8-67FB18AAF8E0</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,7 +25,7 @@
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <comment><![CDATA[Servicios contratados ]]></comment>
 <generatorID>5526D916-AB4C-E265-0B8B-406BDE085D29</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,7 +38,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <generatorID>22D7601A-A0C1-640E-C864-71AE6080D4D3</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -55,7 +55,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <generatorID>81FD2C8A-1F0D-EB2C-2BD5-E136AD3ED11F</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -67,7 +67,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <generatorID>BC353EA8-4661-5399-3EA5-677F37BC3A68</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

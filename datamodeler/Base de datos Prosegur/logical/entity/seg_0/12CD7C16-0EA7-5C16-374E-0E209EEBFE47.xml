@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12CD7C16-0EA7-5C16-374E-0E209EEBFE47" name="Equipamiento">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:08:09 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <Attribute name="Clase" id="3D7727F9-E42C-6C8C-D710-19B34249458D">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:08:48 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -33,7 +33,7 @@
 <Attribute name="ID equipamiento" id="38936BF4-1712-56E3-A431-3CD6EFFEC8D5">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:09:07 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:10:51 UTC</createdTime>
 <generatorID>2EE72510-F335-05B9-DBAD-860505E7BA2E</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -61,7 +61,7 @@
 <identifier id="E18BF7F9-3595-C69B-5F90-22F067D6E7B3" name="Equipamiento PK">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:09:31 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>

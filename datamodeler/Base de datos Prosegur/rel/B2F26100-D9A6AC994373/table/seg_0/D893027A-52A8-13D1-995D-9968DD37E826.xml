@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D893027A-52A8-13D1-995D-9968DD37E826" name="Relation_30">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -10,7 +10,7 @@
 <Column name="Empleados_DNI" id="8285A19A-B24F-8DB2-09F9-5F98C9754C93">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -25,7 +25,7 @@
 <Column name="Instalaciones_ID_instalaciones" id="1ABC1A1C-947A-3547-324E-C986C9FDD122">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -41,7 +41,7 @@
 <ind_PK_UK id="B43221FE-1767-E70E-D2C8-889879661133" name="Relation_30_PK">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -54,7 +54,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <generatorID>C00182B0-29DC-3ACA-5796-3C4633373630</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -65,7 +65,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:34:55 UTC</createdTime>
 <generatorID>C00182B0-29DC-3ACA-5796-3C4633373630</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

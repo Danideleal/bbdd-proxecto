@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80D9DB88-0AE2-9B90-E28C-B6A580B2A430" name="Cliente">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 20:38:58 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <Attribute name="DNI" id="8779A22D-619E-AE2D-97EF-32B9F80591AA">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 20:39:17 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <Attribute name="Nombre" id="88763E5F-33C0-BC02-8B8A-824F33EDF657">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 20:39:43 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <Attribute name="Apellidos" id="EC120CC9-B896-FE06-929E-8CB4F8A43077">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 20:41:20 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -60,7 +60,7 @@
 <Attribute name="Numero de telefono" id="35DF393E-DDEC-4B9B-8EF7-D66CD8B9C066">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 20:41:41 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -74,7 +74,7 @@
 <Attribute name="N cuenta" id="943FF5E4-A3CA-B1B8-AB00-8C7B772F10BA">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 20:42:02 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -90,7 +90,7 @@
 <identifier id="6F8160CA-157C-0604-8C9F-8250C637129E" name="Cliente PK">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 20:39:41 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>

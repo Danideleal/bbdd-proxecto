@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Base de datos Prosegur" id="EF6F964D-B431-13C6-A01F-D053FB6210C1" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Copia_seguridade_bbdd_prosegur" id="EF6F964D-B431-13C6-A01F-D053FB6210C1" version="3.5">
 <createdBy>DPR</createdBy>
 <createdTime>2022-02-10 17:13:58 UTC</createdTime>
 <ownerDesignName>Base de datos Prosegur</ownerDesignName>

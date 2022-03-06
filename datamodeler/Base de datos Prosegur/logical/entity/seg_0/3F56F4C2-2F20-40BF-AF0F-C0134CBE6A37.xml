@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F56F4C2-2F20-40BF-AF0F-C0134CBE6A37" name="Historial de servicios">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:09:39 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <Attribute name="ID historial" id="E7BD2D51-3D96-EA0C-AE96-1FE97D8A4325">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:10:07 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="Fecha" id="2E48F2D3-E1A1-DA48-91F6-CECC1C2F9410">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:11:23 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 22:33:31 UTC</createdTime>
 <generatorID>FBAB8937-71DC-8C6E-E516-4898815F1266</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -60,7 +60,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:13:30 UTC</createdTime>
 <generatorID>E3930A56-A3DE-7C39-8618-F5D2BD2E3AF0</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -74,7 +74,7 @@
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 23:31:41 UTC</createdTime>
 <generatorID>8082900D-78A7-1D50-169F-81F825B2834C</generatorID>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
@@ -89,7 +89,7 @@
 <identifier id="03AEC930-2752-17C9-8412-80264B4B483C" name="Historial de servicios PK">
 <createdBy>DPR</createdBy>
 <createdTime>2022-03-05 21:10:20 UTC</createdTime>
-<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<ownerDesignName>Copia_seguridade_bbdd_prosegur</ownerDesignName>
 <engineerTo>
 <item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
 </engineerTo>
