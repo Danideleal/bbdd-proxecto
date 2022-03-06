@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="2684290D-28D1-F0AA-1287-EA6FE92C5DA9">
+<createdBy>DPR</createdBy>
+<createdTime>2022-02-10 17:13:59 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

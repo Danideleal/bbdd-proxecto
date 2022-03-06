@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D80E9C4-5611-05B5-0A02-16375FFE2251" name="Servicios">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>74D9385C-D6B1-4CD9-FFBD-EDCF234153E4</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<abbreviation>Servizos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Servicios" id="02467DAF-7843-FB82-C811-0697BBEBC4C5">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>B2C1A3BF-43B3-5A36-B0A8-67FB18AAF8E0</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="42B69782-2DBE-881B-762D-880F73E4441D">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<comment><![CDATA[Servicios contratados ]]></comment>
+<generatorID>5526D916-AB4C-E265-0B8B-406BDE085D29</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrato_ID_Contrato" id="0ED223E4-46B8-396F-97D7-AF19EC52B58F">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>22D7601A-A0C1-640E-C864-71AE6080D4D3</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB0E3D4-1398-B53A-AD92-1A4F720BCE46" referredColumn="EEE8C822-F397-9D94-3656-F0F254752603"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11C081FB-86F4-AE24-5DA0-4D0B3D21B5D8" name="Servicios_PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>81FD2C8A-1F0D-EB2C-2BD5-E136AD3ED11F</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02467DAF-7843-FB82-C811-0697BBEBC4C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEA71FCF-DD41-F04E-68EE-9157495ED8B2" name="Servicios_Contrato_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>BC353EA8-4661-5399-3EA5-677F37BC3A68</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ED223E4-46B8-396F-97D7-AF19EC52B58F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

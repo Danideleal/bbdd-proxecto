@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46A1D53A-E483-D8DD-41B1-2B175CDAAAE4" name="Contrato">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:33:46 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Contrato</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Contrato" id="B19E88EB-3FF8-97A8-741F-01EE24B31FD5">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:34:26 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="ECD389FE-105F-7B25-7EBC-887738582BF1">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:38:40 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="55D802A1-94DE-2C4D-A437-0CE5B013D70D">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 22:44:19 UTC</createdTime>
+<generatorID>712E2C48-8ABF-CDC2-63A9-87E815E0F63F</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<referedAttribute>8779A22D-619E-AE2D-97EF-32B9F80591AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31959895-F5A4-1F8D-2DB0-99FE18093A33" name="Contrato PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:35:01 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B19E88EB-3FF8-97A8-741F-01EE24B31FD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

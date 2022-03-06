@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="81F63996-D2B8-4301-C7C3-CD0CEFE2636B" mainViewID="3F90DDBB-B2FB-A361-1398-5C9AEF12381F">
+<createdBy>DPR</createdBy>
+<createdTime>2022-02-10 17:13:58 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

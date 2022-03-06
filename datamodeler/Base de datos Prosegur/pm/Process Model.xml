@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="8AC49322-FFEA-5CDC-940D-FF9CB257CB4D">
+<createdBy>DPR</createdBy>
+<createdTime>2022-02-10 17:13:59 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

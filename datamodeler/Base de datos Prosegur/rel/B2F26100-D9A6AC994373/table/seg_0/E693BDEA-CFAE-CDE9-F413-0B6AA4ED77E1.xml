@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E693BDEA-CFAE-CDE9-F413-0B6AA4ED77E1" name="Relation_28">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Servicios_ID_Servicios" id="60C7D41A-CDFD-AFA8-8883-7FB2F94B1279">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9D122C7-751F-FB7C-D1E5-004C66AD438D" referredColumn="02467DAF-7843-FB82-C811-0697BBEBC4C5"/>
+</associations>
+</Column>
+<Column name="Instalaciones_ID_instalaciones" id="F5963959-AAEC-770A-30C1-DFE4B540A52A">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="143B4A62-3EC9-49E0-8CD8-91A292401FC1" referredColumn="FFE891A8-D4C2-099E-2B4F-C1975C1ADEF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A6C845B-7F38-B291-6A37-432EC2E40DB0" name="Relation_28_PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C7D41A-CDFD-AFA8-8883-7FB2F94B1279"/>
+<colUsage columnID="F5963959-AAEC-770A-30C1-DFE4B540A52A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F2ECBC1-0768-57E7-1922-1059039AD3FB" name="Relation_28_Servicios_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>8487435A-B963-684F-C21C-C0BCEA3AC1AB</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C7D41A-CDFD-AFA8-8883-7FB2F94B1279"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="607394E0-B4FE-E13B-FAAD-78014E422862" name="Relation_28_Instalaciones_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>8487435A-B963-684F-C21C-C0BCEA3AC1AB</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5963959-AAEC-770A-30C1-DFE4B540A52A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="960A45FD-2275-6926-3413-FC6522FDD984" containerWithKeyObject="AE23E5AD-809B-078F-6AE0-9A10B314B96E" localFKIndex="C57C06FC-AEDF-22CB-1D18-FC9188B8AC86" name="Contrato_Cliente_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>712E2C48-8ABF-CDC2-63A9-87E815E0F63F</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<referredTableLongName>Cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A5917A1-EC78-E61B-8DE8-E1AC1FED0824</referredTableID>
+<keyObject>6BFD04C6-105D-03FF-B1ED-6CC9F6AF3DB8</keyObject>
+<referredKeyID>6BFD04C6-105D-03FF-B1ED-6CC9F6AF3DB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

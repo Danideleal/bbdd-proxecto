@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1244EBDB-E633-C3EB-7583-C178B0B470E4" name="Historial_de_servicios">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>3F56F4C2-2F20-40BF-AF0F-C0134CBE6A37</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<abbreviation>Historial de servicios</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_historial" id="A2A0593C-2B77-41C1-2C7E-EB21B4B49311">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>E7BD2D51-3D96-EA0C-AE96-1FE97D8A4325</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="163E56C3-6F4D-7B9D-6B4B-CA7098121D68">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>2E48F2D3-E1A1-DA48-91F6-CECC1C2F9410</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vehículos_Matricula" id="18287A0D-7458-4F0D-1D90-E7E666C012B9">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>E032DD5D-B091-24D7-750F-01114635C2BB</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5CB3D7E-E28A-13DE-2276-796B204EA534" referredColumn="AB1D1A4E-BC04-9F07-1FAF-36318CC609E9"/>
+</associations>
+</Column>
+<Column name="Servicios_ID_Servicios" id="78211EB1-B09C-8EFE-0AB4-05B860A3D669">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>B7E24CAD-C0CB-54E1-494F-C9F1759D2A63</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="544E564E-CFBC-3F61-2E8B-D051C613377F" referredColumn="02467DAF-7843-FB82-C811-0697BBEBC4C5"/>
+</associations>
+</Column>
+<Column name="Ubicación_servicios_ID_Ubicacion" id="8A1C1DAB-B4C7-4DE6-E07D-7A54A689620D">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>DC778E31-03F9-D7D6-6C13-3352516A639A</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4193F249-97AC-A23A-0429-CA38D988F79E" referredColumn="AC61C1DA-2812-B3A4-09E2-1846548510A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2076B18-338D-4A36-24D0-AEB73EBBA035" name="Historial_de_servicios_PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>03AEC930-2752-17C9-8412-80264B4B483C</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A0593C-2B77-41C1-2C7E-EB21B4B49311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F06E9811-2F0B-D380-129E-DB9514E07691" name="Historial_de_servicios_Vehículos_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>FBAB8937-71DC-8C6E-E516-4898815F1266</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18287A0D-7458-4F0D-1D90-E7E666C012B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEAA376F-5ADD-1C7A-F319-D4E32C43B49D" name="Historial_de_servicios_Ubicación_servicios_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>8082900D-78A7-1D50-169F-81F825B2834C</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A1C1DAB-B4C7-4DE6-E07D-7A54A689620D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03B65759-D282-AFD7-DCAE-793ADD7833B7" name="Historial_de_servicios_Servicios_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>E3930A56-A3DE-7C39-8618-F5D2BD2E3AF0</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78211EB1-B09C-8EFE-0AB4-05B860A3D669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

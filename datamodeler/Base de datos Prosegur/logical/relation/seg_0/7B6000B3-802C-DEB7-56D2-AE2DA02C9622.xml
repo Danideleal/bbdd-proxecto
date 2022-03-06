@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="7B6000B3-802C-DEB7-56D2-AE2DA02C9622">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 22:30:11 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="BCAD6A4D-82B2-BBE3-5ADF-345FF517A882" value="true"/>
+</engineerTo>
+<sourcePk>011793FC-19B9-D960-D694-0E6A2040ED2E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09A8F9A7-E367-1065-DD90-E455AE389DEE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>791F5843-BB05-874B-8877-6CDA665BBB3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

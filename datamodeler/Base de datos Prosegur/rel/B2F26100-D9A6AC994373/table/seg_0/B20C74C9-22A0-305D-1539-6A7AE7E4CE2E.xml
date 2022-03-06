@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B20C74C9-22A0-305D-1539-6A7AE7E4CE2E" name="Vehículos">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>791F5843-BB05-874B-8877-6CDA665BBB3A</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<abbreviation>Vehículos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Matricula" id="AB1D1A4E-BC04-9F07-1FAF-36318CC609E9">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>57EA3523-1A50-4A0A-8CD4-B48FA4BF0914</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="008611CD-D6AC-5071-63CB-BA1CDB33DA8E">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>4033F4B7-B98E-426E-2FC7-58770EEA1BA1</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kilometraje" id="21C7B8EB-5610-031B-C13C-87E2361CB89B">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>F6861848-ECEB-D796-43A0-E65ACA3A68A4</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instalaciones_ID_instalaciones" id="2B3DBCD0-8ABA-98F3-F528-85009E1E0E0D">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>AF59A8AF-5251-5061-ED5B-8922513C0BD1</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4D40D8D-24C8-B848-CC64-93D82F99E3CE" referredColumn="FFE891A8-D4C2-099E-2B4F-C1975C1ADEF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36603906-F395-3AC6-7D5F-3E86E0C922B8" name="Vehículos_PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>55C571B7-D80A-E123-9396-025952CA8602</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB1D1A4E-BC04-9F07-1FAF-36318CC609E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0F5A2BD-96E5-7367-3E2D-869F59A4BA28" name="Vehículos_Instalaciones_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>7B6000B3-802C-DEB7-56D2-AE2DA02C9622</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B3DBCD0-8ABA-98F3-F528-85009E1E0E0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

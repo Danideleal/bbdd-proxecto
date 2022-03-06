@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="791F5843-BB05-874B-8877-6CDA665BBB3A" name="Vehículos">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:05:26 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Vehículos</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Matricula" id="57EA3523-1A50-4A0A-8CD4-B48FA4BF0914">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:06:13 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="4033F4B7-B98E-426E-2FC7-58770EEA1BA1">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:07:00 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kilometraje" id="F6861848-ECEB-D796-43A0-E65ACA3A68A4">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:07:26 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID instalaciones" id="AF59A8AF-5251-5061-ED5B-8922513C0BD1">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 22:31:04 UTC</createdTime>
+<generatorID>7B6000B3-802C-DEB7-56D2-AE2DA02C9622</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<referedAttribute>899A5300-71C7-B84E-7976-A39B5A52B799</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55C571B7-D80A-E123-9396-025952CA8602" name="Vehículos PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:06:55 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57EA3523-1A50-4A0A-8CD4-B48FA4BF0914</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

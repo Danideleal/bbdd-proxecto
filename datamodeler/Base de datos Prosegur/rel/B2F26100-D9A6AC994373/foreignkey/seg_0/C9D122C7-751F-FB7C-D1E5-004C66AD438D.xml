@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9D122C7-751F-FB7C-D1E5-004C66AD438D" containerWithKeyObject="E693BDEA-CFAE-CDE9-F413-0B6AA4ED77E1" localFKIndex="6F2ECBC1-0768-57E7-1922-1059039AD3FB" name="Relation_28_Servicios_FK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 23:34:55 UTC</createdTime>
+<generatorID>8487435A-B963-684F-C21C-C0BCEA3AC1AB</generatorID>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<referredTableLongName>Servicios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D80E9C4-5611-05B5-0A02-16375FFE2251</referredTableID>
+<keyObject>11C081FB-86F4-AE24-5DA0-4D0B3D21B5D8</keyObject>
+<referredKeyID>11C081FB-86F4-AE24-5DA0-4D0B3D21B5D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Servicios</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80D9DB88-0AE2-9B90-E28C-B6A580B2A430" name="Cliente">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:38:58 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Cli</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="8779A22D-619E-AE2D-97EF-32B9F80591AA">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:39:17 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="88763E5F-33C0-BC02-8B8A-824F33EDF657">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:39:43 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="EC120CC9-B896-FE06-929E-8CB4F8A43077">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:41:20 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero de telefono" id="35DF393E-DDEC-4B9B-8EF7-D66CD8B9C066">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:41:41 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N cuenta" id="943FF5E4-A3CA-B1B8-AB00-8C7B772F10BA">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:42:02 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F8160CA-157C-0604-8C9F-8250C637129E" name="Cliente PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:39:41 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8779A22D-619E-AE2D-97EF-32B9F80591AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

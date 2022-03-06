@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09A8F9A7-E367-1065-DD90-E455AE389DEE" name="Instalaciones">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:57:18 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Instalaciones</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pais" id="904DB3E4-7FC1-FD6F-785D-76BCDC64EA05">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:57:45 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID instalaciones" id="899A5300-71C7-B84E-7976-A39B5A52B799">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:58:01 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="65BDC105-B492-5BB2-166D-078BB4885F75">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:59:53 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Calle" id="1DC71129-BBC3-52A7-BF71-2018B326D248">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:00:06 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Portal" id="E8FF18A8-E139-A20C-01D7-629226268559">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:00:24 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Piso" id="127BE559-A5A7-78BB-8623-742980EA6332">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:00:57 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CP" id="B04D5C70-C249-64A2-2DE0-168792F23C98">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 21:01:12 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="011793FC-19B9-D960-D694-0E6A2040ED2E" name="Instalaciones PK">
+<createdBy>DPR</createdBy>
+<createdTime>2022-03-05 20:59:50 UTC</createdTime>
+<ownerDesignName>Base de datos Prosegur</ownerDesignName>
+<engineerTo>
+<item key="B2F26100-2981-76E0-2792-D9A6AC994373" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>899A5300-71C7-B84E-7976-A39B5A52B799</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
