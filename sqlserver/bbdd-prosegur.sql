@@ -2,6 +2,14 @@
 --   en:        2022-03-06 02:29:54 CET
 --   sitio:      SQL Server 2012
 --   tipo:      SQL Server 2012
+--Actualizado o 07-03-2022 con sentencia de creación da base de datos.
+
+Use master;
+Go
+Create Database Prosegur
+Go
+Use Prosegur
+Go
 
 
 
